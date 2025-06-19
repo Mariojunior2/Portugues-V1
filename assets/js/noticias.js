@@ -1,8 +1,8 @@
-import * as pdfjsLib from '/assets/pdfjs/pdf.mjs';
+import * as pdfjsLib from './assets/pdfjs/pdf.mjs';
   
-pdfjsLib.GlobalWorkerOptions.workerSrc = '/assets/pdfjs/pdf.worker.mjs';
+pdfjsLib.GlobalWorkerOptions.workerSrc = './assets/pdfjs/pdf.worker.mjs';
 
-const url = '/assets/noticias/jornal.pdf';
+const url = './assets/noticias/jornal.pdf';
 
 let pdfDoc = null,
     pageNum = 1,
