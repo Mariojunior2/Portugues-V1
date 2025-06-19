@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Notícias em PDF</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <h1>Jornal da Turma 2 - INFO </h1>
+
+  <div id="pdf-container">
+    <canvas id="pdf-render"></canvas>
+    <div id="navigation">
+      <button type="button" id="prev">← Página anterior</button>
+      <button type="button" id="next">Próxima página →</button>
+    </div>
+  </div>
+
+  <script src="assets/pdfjs/pdf.js"></script>
+  <script src="assets/js/noticias.js" type="module"></script>
+  <footer>
+    <p>© 2025 Jornal da Turma</p>
+    </footer>
+</body>
+</html>
